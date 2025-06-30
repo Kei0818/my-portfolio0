@@ -1,0 +1,80 @@
+/* Google Fonts の設定 */
+body {
+    font-family: 'Poppins', 'Noto Sans JP', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* ヘッダー */
+header {
+    background-color: #333;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+
+nav a {
+    color: white;
+    margin-left: 1rem;
+    text-decoration: none;
+}
+
+/* ヒーローセクション */
+.hero {
+    text-align: center;
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 100px 20px;
+    background-color: #f8f9fa;
+}
+
+.hero h2,
+.hero p,
+.hero .btn {
+    margin: 0 auto;
+    display: block;
+}
+
+/* ボタン */
+.btn {
+    display: inline-block;
+    background-color: #007bff;
+    color: white;
+    padding: 12px 24px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+/* 特徴セクション */
+.features {
+    padding: 80px 20px;
+    background-color: #ffffff;
+    text-align: center;
+}
+
+.feature-list {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 30px;
+}
+
+.feature {
+    background-color: #e9ecef;
+    padding: 40px;
+    border-radius: 10px;
+    width: 200px;
+    font-weight: bold;
+}
+
+/* フッター */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 50px;
+}
